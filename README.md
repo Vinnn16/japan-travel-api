@@ -48,11 +48,11 @@ https://japan-travel-api.azurewebsites.net
 ```json
 // Request Body
 {
-  "name": "Andi Saputra",
-  "origin": "Jakarta, Indonesia",
-  "destination": "Tokyo",
-  "rating": 5,
-  "comment": "Perjalanan yang luar biasa!"
+  "name": "",
+  "origin": "",
+  "destination": "",
+  "rating": ,
+  "comment": ""
 }
 
 // Response 201
