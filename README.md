@@ -91,23 +91,6 @@ CREATE TABLE customer_reviews (
 );
 ```
 
-##  Environment Variables
-
-Salin `.env.example` menjadi `.env` dan isi nilainya:
-
-```bash
-cp .env.example .env
-```
-
-| Variable | Deskripsi | Contoh |
-|----------|-----------|--------|
-| `DB_HOST` | Host Azure MySQL | japan-travel-db.mysql.database.azure.com |
-| `DB_USER` | Username database | admindb |
-| `DB_PASSWORD` | Password database | ******** |
-| `DB_NAME` | Nama database | japantravel |
-| `DB_PORT` | Port database | 3306 |
-| `PORT` | Port aplikasi | 8080 |
-
 ##  Cara Menjalankan Lokal
 
 ```bash
