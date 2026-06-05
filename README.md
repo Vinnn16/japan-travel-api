@@ -1,4 +1,4 @@
-# 🗾 Japan Travel — Backend API
+#  Japan Travel — Backend API
 
 ![Azure](https://img.shields.io/badge/Microsoft_Azure-0089D6?style=flat&logo=microsoft-azure&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=flat&logo=node.js&logoColor=white)
@@ -7,7 +7,7 @@
 
 REST API backend untuk website Japan Travel, dibangun dengan Node.js/Express.js dan terhubung ke Azure Database for MySQL. Di-deploy ke Microsoft Azure App Service.
 
-## 🌐 Base URL
+##  Base URL
 
 ```
 https://japan-travel-api.azurewebsites.net
@@ -23,7 +23,7 @@ https://japan-travel-api.azurewebsites.net
 | POST | `/api/reviews` | Kirim ulasan baru | ❌ |
 | GET | `/api/reviews` | Ambil semua ulasan | ❌ |
 
-## 📋 Request & Response
+##  Request & Response
 
 ### POST /api/contact
 ```json
@@ -62,7 +62,7 @@ https://japan-travel-api.azurewebsites.net
 }
 ```
 
-## 🗄️ Skema Database
+##  Skema Database
 
 **Tabel: contact_messages**
 ```sql
@@ -91,7 +91,7 @@ CREATE TABLE customer_reviews (
 );
 ```
 
-## ⚙️ Environment Variables
+##  Environment Variables
 
 Salin `.env.example` menjadi `.env` dan isi nilainya:
 
@@ -108,7 +108,7 @@ cp .env.example .env
 | `DB_PORT` | Port database | 3306 |
 | `PORT` | Port aplikasi | 8080 |
 
-## 🚀 Cara Menjalankan Lokal
+##  Cara Menjalankan Lokal
 
 ```bash
 # Clone repository
@@ -125,7 +125,7 @@ cp .env.example .env
 node server.js
 ```
 
-## 🛠️ Teknologi
+##  Teknologi
 
 - **Runtime:** Node.js 22 LTS
 - **Framework:** Express.js 4.x
@@ -133,7 +133,7 @@ node server.js
 - **Security:** CORS, SSL/TLS untuk koneksi database
 - **Config:** dotenv
 
-## 📁 Struktur File
+##  Struktur File
 
 ```
 japan-travel-api/
@@ -144,7 +144,7 @@ japan-travel-api/
 └── README.md         # Dokumentasi ini
 ```
 
-## ☁️ Deployment ke Azure
+##  Deployment ke Azure
 
 ```bash
 # Login Azure CLI
@@ -161,7 +161,7 @@ az webapp deployment source sync \
   --resource-group "japan-travel-rg"
 ```
 
-## 👥 Anggota Kelompok
+##  Anggota Kelompok
 
 | Nama | NIM | Peran |
 |------|-----|-------|
